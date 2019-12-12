@@ -1,0 +1,90 @@
+
+page.data-v-1b4abb47 {
+	background-color: #f7f7f7;
+	height: 100%;
+}
+.chat.data-v-1b4abb47 {
+	padding: 5rpx 10rpx;
+	font-size: 14px;
+	line-height: 80rpx;
+	word-break: break-all;
+	margin-bottom: 100rpx;
+	box-sizing: border-box;
+}
+.wrap.data-v-1b4abb47 {
+	height: 100%;
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-top: 0px;
+	box-sizing: border-box;
+}
+
+/* 聊天 */
+.chat-news.data-v-1b4abb47 {
+	width: 100%;
+	overflow: hidden;
+}
+.news-lf.data-v-1b4abb47 {
+	float: right;
+	padding-right: 20rpx;
+}
+.chat-news.data-v-1b4abb47::after {
+	display: block;
+	height: 0;
+	clear: both;
+	content: '';
+}
+.new-rl.data-v-1b4abb47 {
+	float: left;
+	padding-left: 20rpx;
+}
+.new-img.data-v-1b4abb47 {
+	width: 60rpx;
+	height: 60rpx;
+	border-radius: 50%;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.new-txt.data-v-1b4abb47 {
+	max-width: 300rpx;
+	display: inline-block;
+	border-radius: 6rpx;
+	line-height: 60rpx;
+	background-color: #95d4ff;
+	padding: 5rpx 20rpx;
+	margin: 0 10rpx;
+	margin-left: 50rpx;
+}
+.new-text.data-v-1b4abb47 {
+	margin-left: 0;
+	background: lightgreen;
+}
+
+/* 信息输入区域 */
+.message.data-v-1b4abb47 {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 102rpx;
+	padding: 10rpx;
+	background-color: #fff;
+	border-top: 2rpx solid #eee;
+	box-sizing: border-box;
+	z-index: 3;
+}
+.message input.data-v-1b4abb47 {
+	float: left;
+	width: 76%;
+	height: 100%;
+	line-height: 80rpx;
+	padding: 0 10rpx;
+	font-size: 35rpx;
+	color: #666;
+}
+.message button.data-v-1b4abb47 {
+	float: right;
+	font-size: 35rpx;
+}
+

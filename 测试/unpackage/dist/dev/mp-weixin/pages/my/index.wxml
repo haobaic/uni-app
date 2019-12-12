@@ -1,0 +1,1 @@
+<view><block wx:if="{{devtools}}"><button data-event-opts="{{[['tap',[['credit',['$event']]]]]}}" bindtap="__e">获取用户的积分</button><button open-type="getUserInfo" data-event-opts="{{[['getuserinfo',[['getUserInfo',['$event']]]]]}}" bindgetuserinfo="__e">登录</button></block></view>

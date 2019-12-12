@@ -1,0 +1,28 @@
+{
+  "name": "watchUrl",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "node-dev ./bin/www",
+    "socket": "node-dev socket.js",
+    "con": "concurrently \"npm run dev\" \"npm run socket\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
+    "cookie-parser": "~1.4.4",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "ejs": "^2.7.1",
+    "express": "^4.16.4",
+    "express-ws": "^4.0.0",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "node-dev": "^4.0.0",
+    "request": "^2.88.0",
+    "silly-datetime": "^0.1.2",
+    "websocket": "^1.0.30"
+  }
+}
